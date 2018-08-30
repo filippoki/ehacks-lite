@@ -26,7 +26,7 @@ public class PlayerESP
 
     @Override
     public String getName() {
-        return "Player ESP";
+        return "PlayerESP";
     }
 
     @Override

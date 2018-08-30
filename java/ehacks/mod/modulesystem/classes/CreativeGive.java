@@ -24,7 +24,7 @@ public class CreativeGive
 
     @Override
     public String getDescription() {
-        return "You can give selected ItemStack when you are in creative mode\nUsage: \n  Numpad2 - perform give";
+        return "You can give selected ItemStack when you are in creative mode\nUsage: \n  Numpad0 - perform give";
     }
 
     @Override

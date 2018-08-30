@@ -23,7 +23,7 @@ public class PrivateNuker
 
     @Override
     public String getName() {
-        return "Private Nuker";
+        return "PrivateNuker";
     }
 
     @Override

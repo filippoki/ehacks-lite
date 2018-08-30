@@ -23,6 +23,7 @@ public class CommandManager {
         add(new HelpCommand());
         add(new FriendsCommand());
         add(new ConfigControlCommand());
+        add(new KeybindCommand());
     }
     
     private void add(ICommand command) {

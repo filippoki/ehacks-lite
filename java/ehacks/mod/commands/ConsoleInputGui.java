@@ -17,6 +17,8 @@ import static net.minecraft.client.gui.Gui.drawRect;
 import net.minecraft.client.gui.GuiConfirmOpenLink;
 import net.minecraft.client.gui.GuiScreen;
 import static net.minecraft.client.gui.GuiScreen.isShiftKeyDown;
+import net.minecraft.client.gui.GuiTextField;
+import net.minecraft.client.gui.GuiYesNoCallback;
 import net.minecraft.client.gui.stream.GuiTwitchUserMode;
 import net.minecraft.event.ClickEvent;
 import net.minecraft.event.HoverEvent;
@@ -39,8 +41,6 @@ import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 import tv.twitch.chat.ChatUserInfo;
-import net.minecraft.client.gui.GuiYesNoCallback;
-import net.minecraft.client.gui.GuiTextField;
 
 @SideOnly(Side.CLIENT)
 public class ConsoleInputGui extends GuiScreen implements GuiYesNoCallback

@@ -23,7 +23,7 @@ public class IC2SignEdit
 
     @Override
     public String getName() {
-        return "IC2 Sign Edit";
+        return "IC2SignEdit";
     }
 
     @Override

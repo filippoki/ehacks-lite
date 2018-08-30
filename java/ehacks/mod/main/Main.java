@@ -18,13 +18,13 @@ import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import org.lwjgl.opengl.GL11;
 
-@Mod(modid = "EHacks Lite", name = "EHacks Lite", version = "3.5.8")
+@Mod(modid = "EHacks Lite", name = "EHacks Lite", version = "3.6.1")
 public class Main {
 
     @Mod.Instance(value = "EHacks Lite")
     public static Main INSTANCE;
     
-    public static String version = "3.5.8";
+    public static String version = "3.6.1";
 
     public static boolean isInjected;
 

@@ -16,6 +16,7 @@ import ehacks.mod.modulesystem.classes.SeeHealth;
 import ehacks.mod.modulesystem.classes.TriggerBot;
 import ehacks.mod.modulesystem.handler.EHacksGui;
 import ehacks.mod.util.GLUtils;
+import ehacks.mod.util.InteropUtils;
 import ehacks.mod.util.Mappings;
 import java.awt.Color;
 import net.minecraft.block.material.Material;
@@ -191,7 +192,7 @@ public class Events {
         if (event.target instanceof EntityPlayer) {
             EntityPlayer e = (EntityPlayer) event.target;
             if (SeeHealth.isActive) {
-                Wrapper.INSTANCE.addChatMessage("&9[&bEHacks Console&9] &fPlayer health &e" + e.getCommandSenderName() + "&f: &e" + e.getHealth());
+                InteropUtils.log("Player health &e" + e.getCommandSenderName() + "&f: &e" + e.getHealth(), "SeeHealth");
             }
         }
     }

@@ -28,12 +28,12 @@ public class ItemCreator
 
     @Override
     public String getName() {
-        return "Item Creator";
+        return "ItemCreator";
     }
 
     @Override
     public String getDescription() {
-        return "Gives you any ItemStack you want\nUsage:\n  Numpad2 - perform give";
+        return "Gives you any ItemStack you want\nUsage:\n  Numpad0 - perform give";
     }
 
     public void giveItem(ItemStack stack) {

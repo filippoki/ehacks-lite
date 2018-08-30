@@ -16,7 +16,7 @@ public class MetaHackAdd extends Module {
 
     @Override
     public String getName() {
-        return "MetaHack-Add";
+        return "MetaHackAdd";
     }
 
     @Override

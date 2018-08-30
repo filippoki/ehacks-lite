@@ -65,5 +65,6 @@ public class CheatConfiguration implements IConfiguration {
         public double flyspeed = 1;
         public double speedhack = 3;
         public int nukerradius = 4;
+        public double aimbotdistance = 6;
     }
 }   

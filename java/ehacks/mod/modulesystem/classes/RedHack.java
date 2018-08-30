@@ -24,7 +24,7 @@ public class RedHack
 
     @Override
     public String getDescription() {
-        return "Allows you to give any ItemStack to your hand\nUsage:\n  Numpad2 - Gives an item";
+        return "Allows you to give any ItemStack to your hand\nUsage:\n  Numpad0 - Gives an item";
     }
 
     @Override
